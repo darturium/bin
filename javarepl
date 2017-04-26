@@ -1,0 +1,9 @@
+#!/bin/sh
+
+##directory where jar file is located
+dir=/Users/dhernandez/java-repl/build/artifacts/
+
+##jar file name
+jar_name=javarepl.jar
+
+java -jar $dir/$jar_name
