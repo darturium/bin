@@ -1,9 +1,11 @@
 #!/bin/sh
 
-##directory where jar file is located
+## Command to execute javarepl from anywhere in the command line
+
+## directory where jar file is located
 dir=/Users/dhernandez/java-repl/build/artifacts/
 
-##jar file name
+## jar file name
 jar_name=javarepl.jar
 
 java -jar $dir/$jar_name
